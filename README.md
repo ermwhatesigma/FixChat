@@ -2,7 +2,7 @@
 Are you tired of being a dry chatter? Are you interested in other persons chats but can't express your self so you chat dry and the others think you aren't interested? Well i have the same problem. This is a begin of a new project i am going to make. It uses an llm to train your chatting in a phone looking gui. Fully made in python and usses ollama  
 
 # Today 19-02-2026  
-I finaly Finished my proto type V1.0.  
+I finaly Finished my prototype V1.0.  
 It runs fully local with ollama with qwen3-vl:8b  
 I made it so once ran it opens a pygame window. Looks a bit like a phone.  
 Before the guy pops up there are the chat name that you still have to select in the terminal. There are already a few random chat names i wrote my self so if you leave chat name empty it will select an random name that i wrote.  
