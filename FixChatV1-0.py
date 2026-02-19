@@ -24,9 +24,9 @@ if not gender_ai.strip():
     gender_ai = random.choice(all_genders)
 
 if gender_ai == "":
-    print(f"gender_ai\n")
+    print(f"{gender_ai}\n")
 else:
-    print(f"gender_ai\n")
+    print(f"{gender_ai}\n")
 
 pending_ai_message = None
 is_thinking = False
@@ -86,14 +86,14 @@ def diagnostic_worker(history, model="qwen3-vl:8b"): #Model that will analyze yo
         pass
 
     convo_text = ""
-    last_ai = None
+    last_ai_msg = ""
 
     for msg in history:
         if msg["role"] == "assistant":
-            last_ai = msg["text"]
-        elif msg["role"] == "user" and last_ai:
-            convo_text += f"MESSAGE: {last_ai}\nREPLY: {msg['text']}\n\n"
-            last_ai = None
+            last_ai_msg = msg["text"]
+        elif msg["role"] == "user" and last_ai_msg:
+            convo_text += f"MESSAGE: {last_ai_msg}\nREPLY: {msg['text']}\n\n"
+            last_ai_msg = ""
 
     diagnostic_system = (
         "You are a texting coach analyzing ONLY the user's replies.\n"
