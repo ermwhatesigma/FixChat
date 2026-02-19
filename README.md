@@ -35,7 +35,7 @@ python FixChatV1-0.py
 This will run the script. But like i said before the pygame window pops up you will have to set the chat name in the terminal and also the gender of the ai.  
 Leave them blank for an random choice that i tought of.
 # Example
-Here is an usage of the script
+Here is an usage of the script  
 [![Watch the video](https://img.youtube.com/vi/4CAbCDz-9Ag/0.jpg)](https://www.youtube.com/watch?v=hjp1usZjRTs)
 # Conclusion
 I also wanna make this project for phone like on an android to start with.  
