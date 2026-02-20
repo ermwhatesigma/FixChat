@@ -21,6 +21,23 @@ How to download the model
 ```bash
 ollama pull qwen3-vl:8b #but you can always use your own preffered model
 ```
+# Open AI script
+The open ai script runs on windows and linux. It uses the free api keys from the open router.  
+How to run it  
+```bash
+git clone https://github.com/ermwhatesigma/FixChat
+cd FixChat #First we need ro sace the api keys with the api key saver
+python OpenAI-api-save.py
+```
+Then you put your own api key you pulled from openRouter in the script that will save it in the file format.  
+You can select in the begin of the script how many different api keys you want.  
+Then you put your first api key and the the others if you have others.  
+After you saved the api keys with the script you just ruin the main script
+```bash
+python FixChatV1-0-OpenAI.py #after you saved the main api keys
+```
+Thats all to run the api keys script in python.  
+
 # Linux
 This is how to run the script and how to use it.
 ```bash
