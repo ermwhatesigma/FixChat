@@ -26,7 +26,7 @@ The open ai script runs on windows and linux. It uses the free api keys from the
 How to run it  
 ```bash
 git clone https://github.com/ermwhatesigma/FixChat
-cd FixChat #First we need ro sace the api keys with the api key saver
+cd FixChat #First we need to save the api keys with the api key saver
 python OpenAI-api-save.py
 ```
 Then you put your own api key you pulled from openRouter in the script that will save it in the file format.  
