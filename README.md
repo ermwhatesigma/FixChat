@@ -32,7 +32,8 @@ python OpenAI-api-save.py
 Then you put your own api key you pulled from openRouter in the script that will save it in the file format.  
 You can select in the begin of the script how many different api keys you want.  
 Then you put your first api key and the the others if you have others.  
-After you saved the api keys with the script you just ruin the main script
+After you saved the api keys with the script you just ruin the main script  
+[Get your free api key (https://openrouter.ai/)]
 ```bash
 python FixChatV1-0-OpenAI.py #after you saved the main api keys
 ```
