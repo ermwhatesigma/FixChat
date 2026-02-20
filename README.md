@@ -21,6 +21,19 @@ How to download the model
 ```bash
 ollama pull qwen3-vl:8b #but you can always use your own preffered model
 ```
+# Linux
+This is how to run the script and how to use it.
+```bash
+#make sure you have everything you need.
+git clone https://github.com/ermwhatesigma/FixChat
+cd FixChat
+#if you didn't install pygame or ollama for python also run this real quick
+pip install ollama pygame
+python FixChatV1-0.py
+#If you have python3 just put 3 in the end of python
+```
+This will run the script. But like i said before the pygame wi
+
 # Open AI script
 The open ai script runs on windows and linux. It uses the free api keys from the open router.  
 How to run it  
@@ -54,18 +67,7 @@ Then run the script thats all
 pip install google-genai
 python FixChatV1-0-Google.py
 ```
-# Linux
-This is how to run the script and how to use it.
-```bash
-#make sure you have everything you need.
-git clone https://github.com/ermwhatesigma/FixChat
-cd FixChat
-#if you didn't install pygame or ollama for python also run this real quick
-pip install ollama pygame
-python FixChatV1-0.py
-#If you have python3 just put 3 in the end of python
-```
-This will run the script. But like i said before the pygame window pops up you will have to set the chat name in the terminal and also the gender of the ai.  
+ndow pops up you will have to set the chat name in the terminal and also the gender of the ai.  
 Leave them blank for an random choice that i tought of.
 # Example
 Here is an usage of the script  
