@@ -35,10 +35,25 @@ Then you put your first api key and the the others if you have others.
 After you saved the api keys with the script you just ruin the main script  
 Get your free api key https://openrouter.ai/
 ```bash
+#make sure you have openai installed
+pip install openai
 python FixChatV1-0-OpenAI.py #after you saved the main api keys
 ```
 Thats all to run the api keys script in python.  
+# Genai script
+You can get the free api key in https://aistudio.google.com/  
 
+Setting up the api keys. You will have to run
+Then you will have to sellect option 2 and then you sellect how many api keys and thats it.
+```bash
+python All-API-saver.py
+```
+Then run the script thats all
+```bash
+#make sure you have genai installed
+pip install google-genai
+python FixChatV1-0-Google.py
+```
 # Linux
 This is how to run the script and how to use it.
 ```bash
