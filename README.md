@@ -75,7 +75,7 @@ Here is an usage of the script
 # Android aplication
 Finaly the android aplicaton or the apk file is ready to use.  
 Works the same as python script but has limited models as not all models of openrouter are free but i used free models for this aplication.  
-[![Watch the APK usage](https://img.youtube.com/vi/plcn4tGUvyg/maxresdefault.jpg)](https://www.youtube.com/shorts/plcn4tGUvyg)
+[![Watch the APK usage](https://img.youtube.com/vi/plcn4tGUvyg/0.jpg)](https://www.youtube.com/shorts/plcn4tGUvyg)
 # Conclusion
 I also wanna make this project for phone like on an android to start with.  
 The project on the phone will use api keys. I will and try to make 2 different android versions. One for open ai free api keys and the other one with google free api keys.
